@@ -1,0 +1,35 @@
+*.iml
+.gradle/
+.idea/
+.kotlin/
+.vscode/
+local.properties
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+app/build/
+*.jks
+*.keystore
+*.p12
+*.apk
+*.aab
+*.db
+*.db-*
+*.sqlite
+*.zip
+
+# Local test captures and generated deliverables
+/dist/
+/*.xml
+/*.png
+/*.html
+
+# Promotional material is maintained separately from the Android application
+/motion-promo/
+/motion-reel/
+
+# Local agent instructions and signing-secret utilities
+/AGENTS.md
+/scripts/Initialize-OmegaSigning.ps1
+/scripts/Show-OmegaSigningPassword.ps1

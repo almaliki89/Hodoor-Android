@@ -1,0 +1,3 @@
+-keep class com.omega.attendance.data.local.entity.** { *; }
+-keepattributes *Annotation*
+-dontwarn com.gemalto.jp2.JP2Decoder
